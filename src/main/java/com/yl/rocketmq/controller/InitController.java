@@ -11,4 +11,10 @@ public class InitController {
 
         return "hello";
     }
+	
+	@GetMapping("/testConn")
+    public String testConn(){
+
+        return "connection success!";
+    }
 }
